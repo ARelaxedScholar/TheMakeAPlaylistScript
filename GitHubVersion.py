@@ -8,6 +8,8 @@ youtubersUploadId = "UPLOAD_PLAYLIST_ID" #Find the channel ID of the youtuber an
 userAPIKey = "YOUR_USER_API_KEY"
 clientId = "YOUR_CLIENT_ID"
 CLIENT_SECRET_FILE = "Path/To/Client/Secret.json"
+#Remember no News is good news, if after execution the program terminates silently, it means no errors were encountered.
+#Also just in case, test this with a throaway account first, used it and I didn't get any issues, but I can't guarantee anything.
 
 
 
@@ -96,4 +98,3 @@ def createPlaylistAndPopulate(videos):
 videoList = getVideos(userAPIKey, youtubersUploadId)
 print(videoList[0])
 createPlaylistAndPopulate(videoList)
-print("Your playlist is complete, enjoy!")
