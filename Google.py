@@ -1,3 +1,5 @@
+#Didn't write this, found it there : https://learndataanalysis.org/copy-videos-from-any-youtube-playlist-to-your-own-playlist-with-python-and-youtube-api/
+#A lot of thanks to Jie Jenn
 import pickle
 import os
 import datetime
