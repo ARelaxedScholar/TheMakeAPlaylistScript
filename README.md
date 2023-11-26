@@ -8,7 +8,7 @@ In a **really early state**, planning to add:
 
 The rest will be added/or not on a "if I have time and want to" basis.
 
-## Requisites
+## Prerequisites
 - Requests (Python Library) if you don't just : pip install requests
 - Google Client Library :  pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
